@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--FIM GOOGLE FONTS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Janyelle</title>
+</head>
+
+<body>
+   <header>
+        <!--função para limitar as bordas da header-->
+        <div class="interface">
+            <a href="#sobre-mim" class="logo">Janyelle Oliveira</a> <!--Logo que ao clicar vai para a seção "Sobre Mim"-->
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a href="#sobre-mim">Sobre Mim</a></li>
+                        <li><a href="#formacao-academica">Formação Acadêmica</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div><!--fim da interface-->
+   </header>
+
+   <main>
+    <section id="sobre-mim" class="topo-do-portfolio">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-topo-portfolio">
+                <img src="img/Eu.png" alt="" width="300">
+            </div><!--img-topo-portfolio-->
+
+            <div class="txt-topo-portfolio">
+                <h1>Olá! Sou Janyelle Oliveira<span>.</span></h1>
+                <p> Tenho 20 anos, sou da cidade de João Pessoa e, atualmente, estou cursando duas graduações: Engenharia de Software e Análise e Desenvolvimento de Sistemas. Desde muito nova, sou fascinada pela área de tecnologia. Sempre tive uma imensa curiosidade sobre como computadores e celulares funcionam, e essa curiosidade, entre outros motivos, me levou a seguir carreira nessa área. <br> <br>
+                 Gosto de fazer várias coisas no meu tempo livre, incluindo ler, escutar músicas, assistir filmes, dançar, desenhar, ir ao cinema, jogar e viajar. Especialmente adoro viajar de carro, pois me dá a oportunidade de passar todo o caminho ouvindo minhas músicas favoritas.</p>
+            </div><!--txt-topo-portfolio-->
+          </div>
+        </div>
+    </section><!--topo-do-portfolio-->
+
+    <section id="formacao-academica" class="formacao-academica">
+        <div class="interface">
+            <h2 class="titulo">FORMAÇÃO <span>ACADÊMICA</span></h2>
+            <div class="flex">
+                <div class="formacao-academica-box">
+                    <p><span class="destaqueTexto">Instituição: </span>Universidade Estadual da Paraíba - UEPB <br>
+                        <span class="destaqueTexto">Grau Acadêmico: </span>Tecnólogo <br>
+                        <span class="destaqueTexto">Curso: </span>Análise e Desenvolvimento de Sistemas <br>
+                        <span class="destaqueTexto">Período de estudo: </span>2023/2 - Presente (Cursando atualmente)</p> <br>
+                </div>
+                <div class="formacao-academica-box">
+                    <p><span class="destaqueTexto">Instituição: </span>Centro Universitário Internacional - UNINTER <br>
+                        <span class="destaqueTexto">Grau acadêmico: </span>Bacharelado <br>
+                        <span class="destaqueTexto">Curso: </span>Engenharia de Software <br>
+                        <span class="destaqueTexto">Período de estudo: </span>2023/1 - Presente (Cursando atualmente)</p> <br>
+                </div>
+            </div>
+        </div><!--interface-->
+    </section><!--formacao-academica-->
+
+<section id="portfolio" class="portfolio">
+    <div class="interface">
+        <h2 class="titulo1">MEUS <span>PROJETOS</span></h2>
+        <div class="flex">
+            <div class="img-port">
+                <div class="img-container">
+                    <img src="img/Projeto2.png" alt="Projeto 1">
+                </div>
+                <p>Projeto 1: Este foi meu primeiro projeto, realizado com o intuito de colocar em prática conceitos básicos das linguagens HTML e CSS.</p>
+                <button data-url="https://nyyelle.github.io/meuprimeirosite/">Acessar</button>
+            </div>
+            <div class="img-port">
+                <div class="img-container">
+                    <img src="img/SiteExemplo1.png" alt="Projeto 2">
+                </div>
+                <p>Projeto 2: Site desenvolvido durante uma aula prática da disciplina de Desenvolvimento de Software.</p>
+                <button data-url="https://nyyelle.github.io/siteexemplo1.git.io/">Acessar</button>
+            </div>
+            <div class="img-port">
+                <div class="img-container">
+                    <img src="img/Projeto3.png" alt="Projeto 3">
+                </div>
+                <p>Projeto 3: <br>
+                   Neste projeto, desenvolvi um site fictício de login de usuário utilizando HTML e CSS.</p>
+                <button data-url="https://nyyelle.github.io/loginform/">Acessar</button>
+            </div>
+      </div><!--flex-->
+    </div>
+</section><!--portfolio-->
+
+    <section id="contato" class="formulario">
+        <div class="interface">
+            <h2 class="titulo2">QUER FALAR <span>COMIGO?</span></h2>
+
+            <form action="">
+                <div class="input-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="" id="" placeholder="Digite seu nome">
+                </div>
+                <div class="input-group">
+                    <label for="nome">Email*</label>
+                    <input type="text" name="" id="" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="input-group">
+                    <label for="nome">Sua mensagem*</label>
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                </div>
+                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+            </form>
+        </div><!--interface-->
+    </section><!--formulario-->
+
+   </main>
+
+   <footer>
+    <div class="interface">
+        <div class="line-footer">
+            <div class="flex">
+                <p class="legenda-footer">© 2024. developed with care <span class="heart"> ♥ </span> by <a class="logo-footer" href="#sobre-mim"> Janyelle Oliveira</a></p>
+            </div><!--line-footer-->
+
+            <div class="btn-social">
+                <a href="https://github.com/nyyelle" target="_blank">
+                    <img class="icon github" src="img/github-logo.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/janyelle/" target="_blank">
+                    <img class="icon linkedin" src="img/linkedin-logo.png" alt="LinkedIn" >
+                </a>
+            </div>
+            <div class="line-footer">
+                <p class="email">📧 email para contato: <a href="mailto:janyelleoliveira30@gmail.com"> janyelleoliveira30@gmail.com</a></p>
+            </div>
+        </div><!--line-footer-->
+
+    </div><!--interface-->
+
+   </footer>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
+
+
